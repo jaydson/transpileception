@@ -1,2 +1,2 @@
-# transpileption
-Transpiling JavaScript to transpile JavaScript to JavaScript
+# transpileception
+Transpiling JavaScript to transpile JavaScript to JavaScript and so on.
