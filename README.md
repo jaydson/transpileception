@@ -7,7 +7,8 @@ Transpiling JavaScript to transpile JavaScript to JavaScript.
 ```bash
 npm install -g xto6
 npm install -g babel
-npm install rapydscript -g
+npm install -g rapydscript
 npm install -g typescript 
+npm install -g coffee-script
 npm run spin
 ```

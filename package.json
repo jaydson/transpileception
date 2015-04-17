@@ -4,11 +4,12 @@
   "description": "Transpiling JavaScript to transpile JavaScript to JavaScript.",
   "main": "index.js",
   "scripts": {
-    "spin": "npm run xto6 && npm run babel && npm run rapydscript && npm run typescript",
+    "spin": "npm run xto6 && npm run babel && npm run rapydscript && npm run typescript && npm run coffee",
     "xto6": "xto6 src/person.js -o dist/person-es6.js",
     "babel": "babel dist/person-es6.js --out-file dist/person-es5.js",
     "rapydscript": "rapydscript src/person.rs -o dist/person-rapyd.js --prettify",
-    "typescript": "tsc src/person.ts --out dist/person-ts.js"
+    "typescript": "tsc src/person.ts --out dist/person-ts.js",
+    "coffee": "coffee --compile --output dist/ src/"
   },
   "repository": {
     "type": "git",
