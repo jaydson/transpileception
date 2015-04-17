@@ -6,5 +6,6 @@ Transpiling JavaScript to transpile JavaScript to JavaScript.
 ## How to run
 ```bash
 npm install -g xto6
-xto6 src/person.js -o dist/person.js
+npm install -g babel
+npm run spin
 ```

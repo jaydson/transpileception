@@ -4,8 +4,10 @@
   "description": "Transpiling JavaScript to transpile JavaScript to JavaScript.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+    "spin": "npm run xto6 && npm run babel",
+    "xto6": "xto6 src/person.js -o dist/person-es6.js",
+    "babel": "babel dist/person-es6.js --out-file dist/person-es5.js"
+    },
   "repository": {
     "type": "git",
     "url": "https://github.com/jaydson/transpileception.git"
