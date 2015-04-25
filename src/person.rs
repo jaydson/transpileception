@@ -1,6 +1,6 @@
 class Person:
     def __init__(self, name):
-        self.name = name
+        print('Animal constructor')
         
-    def doSomething(self):
-        print('Something here!')
+    def breathe(self):
+        print('The Animal is breathing')

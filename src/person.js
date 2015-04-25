@@ -1,9 +1,8 @@
-var Person = function () {
-    console.log('Constructor');
-};
 
-Person.prototype.doSomething = function () {
-   setTimeout(function() {
-        console.log('Something async here');
-    }, 100); 
-};
+var Animal = function () {
+	console.log('Animal constructor')
+}
+
+Animal.prototype.breathe = function () {
+	console.log("The Animal is breathing")
+}
